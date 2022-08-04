@@ -3,7 +3,7 @@
       <div class="app_layout_header">
         <div class="welcome">
           <% if current_page?(root_path) %>
-            Welcome <%= current_user.name %>!
+            Welcome <%= current_user.name %> !
             <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
           <% else %>
             <%= link_to root_path do %>

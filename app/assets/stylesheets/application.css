@@ -12,13 +12,16 @@
     position: center;
     top: 70px;
   }
+  .welcome{
+    color: whitesmoke;
+  }
   .backgroud-layout{
     position: fixed;
     width: 100vw;
     height: 100vh;
     top: 0;
     left: 0;
-    background: rgb(16, 18, 19);
+    background: rgb(49, 50, 51);
     overflow: hidden;
   }
   
@@ -95,7 +98,7 @@
 /* The Nav-bar */
   .app_layout_header {
     padding: 20px 15px;
-    background-color: rgb(28, 28, 43);
+    background-color: rgb(26, 26, 27);
 }
 .welcome {
     display: flex;
@@ -103,8 +106,8 @@
     justify-content: space-between;
 }
 a {
-    text-decoration: none;
-    color: #fff;
+    /* text-decoration: none; */
+    color: rgb(51, 20, 230);
 }
 .messages {
     display: flex;
