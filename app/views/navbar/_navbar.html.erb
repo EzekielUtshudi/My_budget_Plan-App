@@ -11,10 +11,6 @@
         </button>
       <% end %>    
     <% end %>
-    
-    
-    <%# <a class="navbar-brand" href="#"></a> %>
-    
     <% if user_signed_in? %>
       <%= button_to "Logout", destroy_user_session_path, method: :delete, class: "btn btn-outline-light" %>
     <% end %>
@@ -22,9 +18,4 @@
   </div>
 </nav>
 
-
-<%# <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <div class="container-fluid">
-    <% if root_path != request.path %>
-      <%# <%= link_to root_path do %>
        
