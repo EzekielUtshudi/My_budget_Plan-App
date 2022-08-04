@@ -64,14 +64,7 @@
     border-radius: 0;
     padding-block: 1rem;
   }
-    /* .border-radius-none .btn {
-        border-radius: 0;
-    } */
-  /* .img {
-    width: 100%; 
-    height: auto;
-    object-fit: contain;
-  } */
+   
   .padding {
     padding: 2.5rem;
   }
@@ -101,6 +94,31 @@
     border-color: #141014;
   }
   .text-muted {
-    font-size: 44px;
-    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-decoration: #0b0c0b;
+    font-weight: 1000;
   }
+
+  .app_layout_header {
+    padding: 20px 15px;
+    background-color: rgb(28, 28, 43);
+}
+.welcome {
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.messages {
+    display: flex;
+    justify-content: center;
+}
+.notice {
+    font-size: 16px;
+    color: green;
+}

@@ -1,21 +1,28 @@
-<nav class="navbar bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="/docs/5.2/assets/images/image.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-      E-BUDGET-PLAN
-    </a>
-    <% if root_path != request.path %>
-      <%= link_to root_path do %>
-        <button class='btn' style='width: 70px;'>
-          <%= image_tag 'arrow.svg', class: "navbar-brand"  %>
-        </button>
-      <% end %>    
+
+<% if user_signed_in? %>
+      <div class="app_layout_header">
+        <div class="welcome">
+          <% if current_page?(root_path) %>
+            Welcome <%= current_user.name %>!
+            <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
+          <% else %>
+            <%= link_to root_path do %>
+              Home
+            <% end %>
+            <p><%= '' %></p>
+            <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
+          <% end %>
+        </div>
+      </div>
+      <div class="messages">
+        <% if notice.to_s != '' %>
+          <div class="notice"><%= notice %></div>
+        <% end %>
+        <% if alert.to_s != '' %>
+          <div class="alert"><%= alert %></div>
+        <% end %>
+      </div>
     <% end %>
-    <% if user_signed_in? %>
-      <%= button_to "Logout", destroy_user_session_path, method: :delete, class: "btn btn-outline-light" %>
-    <% end %>
-    
-  </div>
-</nav>
+
 
        
