@@ -3,6 +3,16 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
+gem 'devise'
+
+gem 'cancancan'
+
+gem 'rspec-rails'
+
+gem 'ffi'
+
+gem 'rubocop', '~> 0.57.2'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 
