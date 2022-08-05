@@ -47,9 +47,8 @@ RSpec.describe User, type: :model do
     @user.password = nil
     expect(@user).to_not be_valid
   end
-it 'is not valid with a password less than 6 characters' do
+  it 'is not valid with a password less than 6 characters' do
     @user.password = '12345'
     expect(@user).to_not be_valid
   end
-
 end
