@@ -1,6 +1,24 @@
+# My Budget-Plan-App
+
+> My Budget-plan App is a mobile web application that allows you to Add your budget In categories: you will have a list of transactions associated with a category
+
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# 
+# The App Deployment
+_[Here](https://www.loom.com/share/088c19c3c4264820b53978c8f9398eae)  The presentation video link_
+
+_[Here](https://e-budget-plan.herokuapp.com/) live demo link_
+
+
+  Splash Screen                                 |  Transaction Page
+![screenshot](./app/assets/img/Splash.jpeg)        |   ![screenshot](./app/assets/img/Transaction.jpeg)
+
+  Login Page                                    |  Categories Page
+![screenshot](./app/assets/img/Log-in.jpeg)     |   ![screenshot](./app/assets/img/Categories.jpeg)
+
+  Sign-Up Page                                          
+![screenshot](./app/assets/img/Sign-Up.jpeg) 
 
 # Getting Started
 
