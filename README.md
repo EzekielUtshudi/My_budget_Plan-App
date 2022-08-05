@@ -12,13 +12,13 @@ _[Here](https://e-budget-plan.herokuapp.com/) live demo link_
 
 
   Splash Screen                                 |  Transaction Page
-![screenshot](./app/assets/img/Splash.jpeg)        |   ![screenshot](./app/assets/img/Transaction.jpeg)
+![screenshot](./app/assets/images/Splash.jpeg)        |   ![screenshot](./app/assets/images/Transaction.jpeg)
 
   Login Page                                    |  Categories Page
-![screenshot](./app/assets/img/Log-in.jpeg)     |   ![screenshot](./app/assets/img/Categories.jpeg)
+![screenshot](./app/assets/images/Log-in.jpeg)     |   ![screenshot](./app/assets/images/Categories.jpeg)
 
   Sign-Up Page                                          
-![screenshot](./app/assets/img/Sign-Up.jpeg) 
+![screenshot](./app/assets/images/Sign-Up.jpeg) 
 
 # Getting Started
 
